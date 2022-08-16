@@ -19,12 +19,22 @@ If the [input] section doesn't exists it just adds that section.
 3) You should see a new Tab `LoadSave Input Map`
 
 ### Saving you inputMap
+
+
+https://user-images.githubusercontent.com/26037455/184981569-f3b5af17-2b7e-4815-8759-04b59b1a733e.mp4
+
+
 1) First of all go to `Project>ProjectSettings>InputMap` and create your own inputMap
 2) Go in ``LoadSave Input Map`` Tab and click on Save inputMap it will save a file called `myInputMap.input `
 3) `myInputMap.input` needs to be inside `LoadSaveInputMap` folder this way you can load it.
 4) So make sure that myInputMap.input is inside your pluginFolder each time you want to load it in a new project (I suggest creating a .zip file that has everything inside and import it each time you start a new project)
 
 ### Loading your inputMap
+
+
+https://user-images.githubusercontent.com/26037455/184979181-05817b12-0048-4b6b-b36a-4b61258b03ce.mp4
+
+
 1) Start a new project 
 2) Import the plugin with the your own `myInputMap.input` inside the plugin folder (the one you exported previously)
 3) Go to `Project/ProjectSettings/LoadSave Input Map > Load `
