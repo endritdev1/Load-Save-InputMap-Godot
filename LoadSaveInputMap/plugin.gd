@@ -38,7 +38,7 @@ func SaveProjectFile():
 		var subStringInput = asAText.substr(asAText.find("[input]",0))
 		var myInputs
 		if nextSection != "Null":
-			myInputs = subStringInput.left(subStringInput.find("[",nextSection,"]"))
+			myInputs = subStringInput.left(subStringInput.find(str("[",nextSection,"]"),0))
 		else:
 			myInputs = subStringInput
 		var myInputFile = File.new()
