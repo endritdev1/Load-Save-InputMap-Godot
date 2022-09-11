@@ -21,24 +21,34 @@ If the [input] section doesn't exists it just adds that section.
 ### Saving you inputMap
 
 
-https://user-images.githubusercontent.com/26037455/184981569-f3b5af17-2b7e-4815-8759-04b59b1a733e.mp4
 
 
+https://user-images.githubusercontent.com/26037455/189528016-9dde2bd8-9e60-47cd-badc-e6db38d072b2.mp4
+
+
+
+**Version 0.2**
 1) First of all go to `Project>ProjectSettings>InputMap` and create your own inputMap
-2) Go in ``LoadSave Input Map`` Tab and click on Save inputMap it will save a file called `myInputMap.input `
-3) `myInputMap.input` needs to be inside `LoadSaveInputMap` folder this way you can load it.
-4) So make sure that myInputMap.input is inside your pluginFolder each time you want to load it in a new project (I suggest creating a .zip file that has everything inside and import it each time you start a new project)
+2) Go in ``LoadSave Input Map`` Tab 
+3) Insert an alphaNumeric name(nospaces or special letters are allowed)
+4) Click on Save inputMap it will save a file inside a new folder on your documents, the folder name is "inputMapsSaves"
+5) The new file will be avaible on the file list
 
 ### Loading your inputMap
 
 
-https://user-images.githubusercontent.com/26037455/184979181-05817b12-0048-4b6b-b36a-4b61258b03ce.mp4
+
+
+https://user-images.githubusercontent.com/26037455/189528036-101c9551-f640-4343-91ca-0a7f0bab5b31.mp4
+
+
 
 
 1) Start a new project 
-2) Import the plugin with the your own `myInputMap.input` inside the plugin folder (the one you exported previously)
-3) Go to `Project/ProjectSettings/LoadSave Input Map > Load `
-4) Reload your project
+2) Import the plugin and activate it 
+3) Go to `Project/ProjectSettings/LoadSave Input Map` and select a an inputmap file from the file list
+4) Click on Load
+5) Reload your project
 
 ### The default myInputMap.input file content
 
